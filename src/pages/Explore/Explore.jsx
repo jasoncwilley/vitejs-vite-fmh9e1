@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./Explore.css";
-import ArtCard from "../../components/ArtCard/ArtCard";
+//import ArtCard from "../../components/ArtCard/ArtCard";
 import Header from "../../components/Header/Header";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
-import { WalletNotConnectedError } from "@solana/wallet-adapter-base";
-import { fetchall, fetch } from "../../utils/createSale";
+
+
 const Explore = () => {
   const { connection } = useConnection();
   const [nfts, setNfts] = useState([]);

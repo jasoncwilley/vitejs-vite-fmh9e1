@@ -8,14 +8,13 @@ import RangeSlider from "react-bootstrap/FormRange";
 const Launch = (props) => {
   return (
     <div className="boxs">
-        <div className="liness"></div>
+        <div className="liness">
         <div className="conta">
         <div className="imag-box ">
           <div className="imagBx">
             <img className="images" src="" alt="" />
-          </div>
-          <div class="contents">
-            <div>
+            <div class="contents">
+            </div>
               <h2>Preview</h2>
             </div>
           </div>
@@ -38,7 +37,7 @@ const Launch = (props) => {
         </div>
         <div className="llines"></div>
         </div>
-
+</div>
 
 
 );

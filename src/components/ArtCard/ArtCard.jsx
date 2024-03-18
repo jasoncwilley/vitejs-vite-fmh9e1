@@ -3,8 +3,6 @@ import "./ArtCard.css";
 import {Button} from "react-bootstrap";
 import { useConnection } from "@solana/wallet-adapter-react";
 
-import { fetch } from "../../utils/createSale";
-
 const { programs } = require("@metaplex/js");
 const axios = require("axios").default;
 
